@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Ex_DisableLogging module's config.xml
+ *
+ * @category    Ex
+ * @package     Ex_DisableLogging
+ * @author      Suky <suky3plex@outlook.com> (http://ex.pendabl.es)
+ * @license     http://unlicense.org  Unlicensed Free Software
+ */
+-->
+<config>
+    <modules>
+        <Ex_DisableLogging>
+            <version>0.0.1</version>
+        </Ex_DisableLogging>
+    </modules>
+    <frontend>
+        <events>
+            <!-- controller -->
+            <controller_action_predispatch>
+                <observers>
+                    <log>
+                        <type>disabled</type>
+                    </log>
+                </observers>
+            </controller_action_predispatch>
+            <controller_action_predispatch>
+                <observers>
+                    <log>
+                        <type>disabled</type>
+                    </log>
+                </observers>
+            </controller_action_predispatch>
+            <controller_action_postdispatch>
+                <observers>
+                    <log>
+                        <type>disabled</type>
+                    </log>
+                </observers>
+            </controller_action_postdispatch>
+            <controller_action_postdispatch>
+                <observers>
+                    <log>
+                        <type>disabled</type>
+                    </log>
+                </observers>
+            </controller_action_postdispatch>
+            <!-- customer -->
+            <customer_login>
+                <observers>
+                    <reports>
+                        <type>disabled</type>
+                    </reports>
+                </observers>
+            </customer_login>
+            <customer_login>
+                <observers>
+                    <log>
+                        <type>disabled</type>
+                    </log>
+                </observers>
+            </customer_login>
+            <customer_logout>
+                <observers>
+                    <reports>
+                        <type>disabled</type>
+                    </reports>
+                </observers>
+            </customer_logout>
+            <customer_logout>
+                <observers>
+                    <log>
+                        <type>disabled</type>
+                    </log>
+                </observers>
+            </customer_logout>
+            <sendfriend_product>
+                <observers>
+                    <reports>
+                        <type>disabled</type>
+                    </reports>
+                </observers>
+            </sendfriend_product>
+            <!-- catalog -->
+            <catalog_product_compare_remove_product>
+                <observers>
+                    <reports>
+                        <type>disabled</type>
+                    </reports>
+                </observers>
+            </catalog_product_compare_remove_product>
+            <catalog_product_compare_add_product>
+                <observers>
+                    <reports>
+                        <type>disabled</type>
+                    </reports>
+                </observers>
+            </catalog_product_compare_add_product>
+            <catalog_controller_product_view>
+                <observers>
+                    <reports>
+                        <type>disabled</type>
+                    </reports>
+                </observers>
+            </catalog_controller_product_view>
+            <catalog_product_compare_item_collection_clear>
+                <observers>
+                    <reports>
+                        <type>disabled</type>
+                    </reports>
+                </observers>
+            </catalog_product_compare_item_collection_clear>
+            <!-- wishlist -->
+            <wishlist_add_product>
+                <observers>
+                    <reports>
+                        <type>disabled</type>
+                    </reports>
+                </observers>
+            </wishlist_add_product>
+            <wishlist_share>
+                <observers>
+                    <reports>
+                        <type>disabled</type>
+                    </reports>
+                </observers>
+            </wishlist_share>
+            <!-- sales -->
+            <sales_quote_item_save_before>
+                <observers>
+                    <reports>
+                        <type>disabled</type>
+                    </reports>
+                </observers>
+            </sales_quote_item_save_before>
+            <sales_quote_save_after>
+                <observers>
+                    <log>
+                        <type>disabled</type>
+                    </log>
+                </observers>
+            </sales_quote_save_after>
+            <sales_quote_save_after>
+                <observers>
+                    <log>
+                        <type>disabled</type>
+                    </log>
+                </observers>
+            </sales_quote_save_after>
+            <!-- checkout -->
+            <checkout_quote_destroy>
+                <observers>
+                    <log>
+                        <type>disabled</type>
+                    </log>
+                </observers>
+            </checkout_quote_destroy>
+            <checkout_quote_destroy>
+                <observers>
+                    <log>
+                        <type>disabled</type>
+                    </log>
+                </observers>
+            </checkout_quote_destroy>
+        </events>
+    </frontend>
+</config>

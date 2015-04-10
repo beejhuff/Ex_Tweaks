@@ -1,0 +1,4 @@
+# Name: Ex_DisableLogging
+app/code/community/Ex/DisableLogging/           app/code/community/Ex/DisableLogging/
+app/etc/modules/Ex_DisableLogging.xml           app/etc/modules/Ex_DisableLogging.xml
+
