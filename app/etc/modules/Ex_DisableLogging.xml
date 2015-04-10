@@ -12,7 +12,7 @@
 <config>
   <modules>
     <Ex_DisableLogging>
-      <active>false</active>
+      <active>true</active>
       <codePool>community</codePool>
     </Ex_DisableLogging>
   </modules>
