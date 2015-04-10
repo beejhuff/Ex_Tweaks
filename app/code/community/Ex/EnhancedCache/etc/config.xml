@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Ex_EnhancedCache module's config.xml
+ *
+ * @category    Ex
+ * @package     Ex_EnhancedCache
+ * @author      Suky <suky3plex@outlook.com> (http://ex.pendabl.es)
+ * @license     http://unlicense.org  Unlicensed Free Software
+ */
+-->
+<config>
+    <modules>
+        <Ex_EnhancedCache>
+            <version>0.0.1</version>
+        </Ex_EnhancedCache>
+    </modules>
+    <frontend>
+        <events>
+            <core_block_abstract_to_html_before>
+                <observers>
+                    <cache_cms_blocks>
+                        <class>Ex_EnhancedCache_Model_Observer</class>
+                        <method>cacheCmsBlocks</method>
+                    </cache_cms_blocks>
+                </observers>
+            </core_block_abstract_to_html_before>
+        </events>
+    </frontend>
+</config>

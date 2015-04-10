@@ -5,3 +5,7 @@ app/etc/modules/Ex_DisableLogging.xml           app/etc/modules/Ex_DisableLoggin
 # Module: Ex_EnhancedLayout
 app/code/community/Ex/EnhancedLayout/           app/code/community/Ex/EnhancedLayout/
 app/etc/modules/Ex_EnhancedLayout.xml           app/etc/modules/Ex_EnhancedLayout.xml
+
+# Module: Ex_EnhancedCache
+app/code/community/Ex/EnhancedCache/            app/code/community/Ex/EnhancedCache/
+app/etc/modules/Ex_EnhancedCache.xml            app/etc/modules/Ex_EnhancedCache.xml
