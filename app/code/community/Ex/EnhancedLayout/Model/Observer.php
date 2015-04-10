@@ -15,7 +15,8 @@ class Ex_EnhancedLayout_Model_Observer
      */
     public function optimizeLayout(Varien_Event_Observer $observer)
     {
-        $update = $observer->getLayout()->getUpdate();
+        /** @var Mage_Core_Model_Layout_Update $update */
+        $update = $observer->getEvent()->getLayout()->getUpdate();
 
         foreach($update->getHandles() as $handle){
             if( strpos($handle, 'CATEGORY_') === 0

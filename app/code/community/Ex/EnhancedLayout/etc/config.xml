@@ -20,7 +20,7 @@
             <controller_action_layout_load_before>
                 <observers>
                     <optimize_layout>
-                        <class>ex_enhancedLayout/observer</class>
+                        <class>Ex_EnhancedLayout_Model_Observer</class>
                         <method>optimizeLayout</method>
                     </optimize_layout>
                 </observers>
