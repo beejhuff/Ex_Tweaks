@@ -7,5 +7,5 @@ app/code/community/Ex/EnhancedLayout/           app/code/community/Ex/EnhancedLa
 app/etc/modules/Ex_EnhancedLayout.xml           app/etc/modules/Ex_EnhancedLayout.xml
 
 # Module: Ex_EnhancedCache
-app/code/community/Ex/Ex_EnhancedCache/         app/code/community/Ex/Ex_EnhancedCache/
+app/code/community/Ex/EnhancedCache/            app/code/community/Ex/EnhancedCache/
 app/etc/modules/Ex_EnhancedCache.xml            app/etc/modules/Ex_EnhancedCache.xml
