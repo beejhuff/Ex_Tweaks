@@ -12,7 +12,7 @@
 <config>
   <modules>
     <Ex_EnhancedCache>
-      <active>false</active>
+      <active>true</active>
       <codePool>community</codePool>
     </Ex_EnhancedCache>
   </modules>
