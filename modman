@@ -1,4 +1,7 @@
-# Name: Ex_DisableLogging
+# Module: Ex_DisableLogging
 app/code/community/Ex/DisableLogging/           app/code/community/Ex/DisableLogging/
 app/etc/modules/Ex_DisableLogging.xml           app/etc/modules/Ex_DisableLogging.xml
 
+# Module: Ex_EnhancedLayout
+app/code/community/Ex/EnhancedLayout/           app/code/community/Ex/EnhancedLayout/
+app/etc/modules/Ex_EnhancedLayout.xml           app/etc/modules/Ex_EnhancedLayout.xml
