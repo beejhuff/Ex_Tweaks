@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Ex_EnhancedLayout module's config.xml
+ *
+ * @category    Ex
+ * @package     Ex_EnhancedLayout
+ * @author      Suky <suky3plex@outlook.com> (http://ex.pendabl.es)
+ * @license     http://unlicense.org  Unlicensed Free Software
+ */
+-->
+<config>
+    <modules>
+        <Ex_EnhancedLayout>
+            <version>0.0.2</version>
+        </Ex_EnhancedLayout>
+    </modules>
+    <frontend>
+        <events>
+            <controller_action_layout_load_before>
+                <observers>
+                    <optimize_layout>
+                        <class>Ex_EnhancedLayout_Model_Observer</class>
+                        <method>optimizeLayout</method>
+                    </optimize_layout>
+                </observers>
+            </controller_action_layout_load_before>
+        </events>
+    </frontend>
+</config>
