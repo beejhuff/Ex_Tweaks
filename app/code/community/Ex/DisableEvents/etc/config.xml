@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Ex_DisableLogging module's config.xml
+ * Ex_DisableEvents module's config.xml
  *
  * @category    Ex
- * @package     Ex_DisableLogging
+ * @package     Ex_DisableEvents
  * @author      Suky <suky3plex@outlook.com> (http://ex.pendabl.es)
  * @license     http://unlicense.org  Unlicensed Free Software
  */
 -->
 <config>
     <modules>
-        <Ex_DisableLogging>
-            <version>0.0.1</version>
-        </Ex_DisableLogging>
+        <Ex_DisableEvents>
+            <version>1.0.0</version>
+        </Ex_DisableEvents>
     </modules>
     <frontend>
         <events>
@@ -25,20 +25,6 @@
                     </log>
                 </observers>
             </controller_action_predispatch>
-            <controller_action_predispatch>
-                <observers>
-                    <log>
-                        <type>disabled</type>
-                    </log>
-                </observers>
-            </controller_action_predispatch>
-            <controller_action_postdispatch>
-                <observers>
-                    <log>
-                        <type>disabled</type>
-                    </log>
-                </observers>
-            </controller_action_postdispatch>
             <controller_action_postdispatch>
                 <observers>
                     <log>
